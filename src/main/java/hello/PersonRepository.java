@@ -10,3 +10,6 @@ import java.util.List;
 public interface PersonRepository extends PagingAndSortingRepository<Person, Long> {
     List<Person> findByLastName(@Param("name") String name);
 }
+
+
+
